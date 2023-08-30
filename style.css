@@ -1,15 +1,35 @@
+/*common shared styles*/
 body{
     margin: 0;
-}
+    color: white;
+    background:#161616;}
 h1{
     font-size: 3.5rem;
+}
+h3{
+    font-size: 2rem;
 }
 p{
     font-size: 1.25rem;
 }
+hr{
+    background-color: white;
+    height: .01rem;
+    width: 50rem;
+    border: none;
+}
 span{
     color: #FF0000;
 }
+button{
+    background-color: #FF0000;
+    padding: .9375rem 1.875rem;
+    border: none;
+    border-radius: .3125rem;
+    color: white;
+}
+/* navigation styles */
+
 nav{
     background: #424141;
     display: flex;
@@ -24,21 +44,53 @@ nav li{
     display: inline;
     padding: 0 .625rem;
 }
+/*banner styles  */
 .banner{
     display: flex;
     padding: 6.25rem 9.375rem;
     color: white;
-    background:#161616;
     align-items: center;
     gap: 3.125rem ;
 }
 .banner img{
-    width: 400px;
+    width: 25rem;
 }
-.button{
-    background-color: #FF0000;
-    padding: .9375rem 1.875rem;
+/*about shared styles on */
+.about{
+    display: flex;
+    padding: 6.25rem 9.375rem;
+    gap: 3.125rem ;
+    align-items: center;
+}
+.about img{
+    width: 25rem;
+}
+.services{
+    display: flex;
+    padding: 6.25rem 9.375rem;
+    gap: 6.25rem ;
+}
+.services img{
+    width: 5em;
+}
+.services div{
+    text-align: center;
+    /*border: .0625rem solid white;*/
     border: none;
-    color: white;
-    border-radius: .3125rem;
+    border-radius: .9375rem;
+    padding: .625rem;
+    box-shadow: 0rem 0rem 1rem 0rem white;
+}
+.footer{
+    display: flex;
+    padding: 6.25rem 9.375rem;
+    
+}
+
+.footer img{
+    width: 10rem;
+}
+small p{
+    font-size: small;
+text-align: center;
 }
